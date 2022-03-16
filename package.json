@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-pick-arguments",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Create a function that invokes a provided function with specified arguments.",
   "license": "Apache-2.0",
   "author": {
