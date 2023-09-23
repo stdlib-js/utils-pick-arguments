@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import pickArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-pick-arguments@deno/mod.js';
+import pickArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-pick-arguments@v0.1.0-deno/mod.js';
 ```
 
 #### pickArguments( fcn, indices\[, thisArg] )
@@ -120,7 +120,7 @@ var out = bar( 1, 2, 3 );
 ```javascript
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add@deno/mod.js';
-import pickArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-pick-arguments@deno/mod.js';
+import pickArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-pick-arguments@v0.1.0-deno/mod.js';
 
 function fill( i ) {
     return i;
