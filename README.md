@@ -170,6 +170,13 @@ for ( i = 1; i < x.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/utils-reorder-arguments`][@stdlib/utils/reorder-arguments]</span><span class="delimiter">: </span><span class="description">create a function that invokes a provided function with reordered arguments.</span>
+-   <span class="package-name">[`@stdlib/utils-reverse-arguments`][@stdlib/utils/reverse-arguments]</span><span class="delimiter">: </span><span class="description">create a function that invokes a provided function with arguments in reverse order.</span>
+
 </section>
 
 <!-- /.related -->
@@ -242,6 +249,14 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/utils-pick-arguments/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-pick-arguments/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/utils/reorder-arguments]: https://github.com/stdlib-js/utils-reorder-arguments
+
+[@stdlib/utils/reverse-arguments]: https://github.com/stdlib-js/utils-reverse-arguments
+
+<!-- </related-links> -->
 
 </section>
 
