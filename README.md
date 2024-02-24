@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import pickArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-pick-arguments@esm/index.mjs';
+import pickArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-pick-arguments@v0.2.1-esm/index.mjs';
 ```
 
 #### pickArguments( fcn, indices\[, thisArg] )
@@ -125,7 +125,7 @@ var out = bar( 1, 2, 3 );
 
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add@esm/index.mjs';
-import pickArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-pick-arguments@esm/index.mjs';
+import pickArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-pick-arguments@v0.2.1-esm/index.mjs';
 
 function fill( i ) {
     return i;
