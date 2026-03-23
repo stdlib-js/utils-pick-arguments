@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -16,16 +16,21 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { ArrayLike } from '@stdlib/types/array';
 
 /**
-* Return a function that applies specified arguments to a provided function.
+* Returns a function that applies specified arguments to a provided function.
 *
-* @module @stdlib/utils-pick-arguments
+* @param fcn - input function
+* @param indices - argument indices
+* @param thisArg - function context
+* @returns function wrapper
 *
 * @example
-* var pickArguments = require( '@stdlib/utils-pick-arguments' );
-*
 * function foo( a, b ) {
 *     return [ a, b ];
 * }
@@ -35,12 +40,9 @@
 * var out = bar( 1, 2, 3 );
 * // returns [ 1, 3 ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function pickArguments( fcn: Function, indices: ArrayLike<number>, thisArg?: any ): Function;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = pickArguments;
